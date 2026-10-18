@@ -20,7 +20,7 @@ Sekiz satırda 23 figür denenir; tek/çift indeks 0 veya 180 derece yön ve 0.3
 
 ### Story and perspective
 
-Trees alternate upright and inverted, larger and smaller. Belonging does not demand identical appearances. One branch module exists in different orientations while sustaining a shared field. Repetition proposes that culture can persist through changed relations as well as through replication. This is the artwork’s reading, not a new historical meaning assigned to the inverted tree.
+Trees alternate upright and inverted, larger and smaller. Belonging does not demand identical appearances. One branch module exists in different orientations while sustaining a shared field. Repetition proposes that culture can persist through changed relations as well as through replication. Alternating orientation and scale lets a single branch module establish a varied, interlocking field.
 
 ### Why these shapes?
 

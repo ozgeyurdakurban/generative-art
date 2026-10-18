@@ -1,4 +1,4 @@
-// Temsilî Anadolu/Türk motif paleti; tarihsel boya standardı değildir.
+// Kök boya kırmızısı, indigo, turkuaz ve toprak tonlarıyla kurulan on renkli palet.
 const colors = {
   madderRed: '#a8322d', // Kök boya / tuğla kırmızısı.
   indigo: '#1f3a5f', // Çivit mavisi.

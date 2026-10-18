@@ -15,7 +15,7 @@ function draw() {
 // İlk örnekte açı kipi polygon çağrısının içinde ayarlanıyordu.
 // Aynı davranışı korumak için burada da çağrı içinde ayarlanır.
 // Elips yarıçapları rx ve ry, köşe sayısı npoints ile çokgen üretir.
-// Bu yardımcı fonksiyon p5.js'in yerleşik komutu değildir.
+// Köşeleri elips çevresinde eşit açılarla yerleştiren çokgen yardımcısı.
 // Açı kipinin DEGREES olması gerekir; cos/sin bu kipe göre hesap yapar.
 function polygon(rx, ry, npoints) {
   angleMode(DEGREES); // Global açı kipini değiştirir; push/pop bunu geri almaz.

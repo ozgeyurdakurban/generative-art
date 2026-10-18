@@ -10,7 +10,7 @@ Her açılışta dört köşe başka bir uzlaşma arar. Bir kenarın beklenmedik
 
 ### Neden bu şekiller?
 
-Kapalı, serbest bir çokgen kullanılır; tarihsel bir Anadolu motifi olarak adlandırılmaz. Konturun kalınlığı, tesadüfi sınırı görünür kılar. Rastgele renklerin burada yöresel sembolizmi yoktur.
+Kapalı çokgenin köşeleri rastgele koordinatlarla yer değiştirir. Kalın kontur bu değişken sınırı görünür kılar; rastgele seçilen renkler her çalıştırmada yeni bir vurgu oluşturur.
 
 ### Kural, hareket ve uygulama
 
@@ -24,7 +24,7 @@ At each opening, four vertices seek a different arrangement. An unexpectedly ext
 
 ### Why these shapes?
 
-The work uses a closed irregular polygon, not a named historical Anatolian motif. Its heavy outline makes the contingent boundary visible. The random colors carry no regional symbolic claim.
+Random coordinates move the vertices of a closed polygon. Its heavy outline reveals the changing boundary, while a new random color gives each run a different emphasis.
 
 ### Rule, movement and implementation
 

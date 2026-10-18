@@ -38,7 +38,7 @@ function dal(yaprakCiz = true) {
   polygon(100, 100, 4); // Kalın döndürülmüş dörtgen dalın ana hatlarını verir.
   pop();
 
-  // Üst kısmı zemin rengiyle kapatır; gerçek saydamlık/alpha maskesi değildir.
+  // Zemin rengindeki çokgen, üst kenarı örterek dalın açık V biçimini oluşturur.
   push();
   fill(colors.ivory);
   noStroke();

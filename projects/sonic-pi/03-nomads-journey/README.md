@@ -10,7 +10,7 @@ Yola çıkmanın ilk anını, bedenin henüz uzaklığı bilmediği ama yürüme
 
 ### Ses ve yapı
 
-100 BPM. D merkezli düzenli nabız, dört vuruşluk bas ve vurmalı katmanlarıyla ilerler. pluck sesindeki D–F–G–A çevresi, echo ve reverb ile tekrarlanan bir melodik alan kurar. hollow sesi daha uzun süreli bir zemin verir. World groove / organic downtempo yönünde bir eskizdir; belirli bir yöresel ezgiye ait olduğu ileri sürülmez.
+100 BPM. D merkezli düzenli nabız, dört vuruşluk bas ve vurmalı katmanlarıyla ilerler. pluck sesindeki D–F–G–A çevresi, echo ve reverb ile tekrarlanan bir melodik alan kurar. hollow sesi daha uzun süreli bir zemin verir. World groove ve organic downtempo dokusu, düzenli basın üzerinde yankılanan kısa cümlelerle kurulur.
 
 ### Çalıştırma
 
@@ -24,7 +24,7 @@ I imagined the first moment of departure, when the body has begun walking withou
 
 ### Sound and structure
 
-100 BPM. A D-centered pulse moves with four-beat bass and percussion layers. Plucked notes around D–F–G–A, with echo and reverb, establish a repeating melodic space. A hollow synth supplies a longer atmospheric ground. This is a world-groove / organic-downtempo sketch, not a claim to a particular regional tune.
+100 BPM. A D-centered pulse moves with four-beat bass and percussion layers. Plucked notes around D–F–G–A, with echo and reverb, establish a repeating melodic space. A hollow synth supplies a longer atmospheric ground. The world-groove and organic-downtempo texture grows from short, echoing phrases above a steady bass.
 
 ### Running
 

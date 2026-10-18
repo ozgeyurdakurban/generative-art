@@ -10,7 +10,7 @@ Bir yolculuğun en çok geride kalan seslerini düşünüyorum: uzak bir uğultu
 
 ### Ses ve yapı
 
-76 BPM. A merkezli, Hicaz rengini çağrıştıran eşit aralıklı notalar kullanılır; belirli bir makam icrasının birebir aktarımı değildir. hollow katmanları uzun zeminler, pluck cümleleri ve arpejler telli bir doku kurar. low-pass filtreler tizleri yumuşatır; reverb ve echo mesafe hissi verir. Vurmalı döngüde 1+1+1+1.5 vuruşluk beklemeler, sekizlik alt bölümlerde 2+2+2+3 vurgusuna karşılık gelir. Her melodik döngünün aynı uzunlukta olduğu varsayılmamalıdır.
+76 BPM. A merkezli, Hicaz rengini çağrıştıran eşit aralıklı notalar, uzun seslerle kısa melodik cümleleri aynı alanda buluşturur. hollow katmanları uzun zeminler, pluck cümleleri ve arpejler telli bir doku kurar. low-pass filtreler tizleri yumuşatır; reverb ve echo mesafe hissi verir. Vurmalı döngüde 1+1+1+1.5 vuruşluk beklemeler, sekizlik alt bölümlerde 2+2+2+3 vurgusuna karşılık gelir. Farklı uzunluktaki melodik döngüler, tekrarlar boyunca birbirine göre yer değiştirir.
 
 ### Çalıştırma
 

@@ -3,7 +3,7 @@
 // Türkçe açıklamalar eklendi; düzenleme notları README.md içinde.
 // Bu dosyayı tek başına sketch.js olarak kullanın.
 
-// Temsilî Anadolu/Türk motif paleti; tarihsel boya standardı değildir.
+// Kök boya kırmızısı, indigo, turkuaz ve toprak tonlarıyla kurulan on renkli palet.
 const colors = {
   madderRed: '#a8322d', // Kök boya / tuğla kırmızısı.
   indigo: '#1f3a5f', // Çivit mavisi.
@@ -19,7 +19,7 @@ const colors = {
 function setup() {
   createCanvas(1080, 1080);
   angleMode(DEGREES);
-  noLoop(); // Bu düzen hareketli değildir.
+  noLoop(); // Motif yerleşimini bir kez çizip sabit tutar.
 }
 function draw() {
   background(colors.ivory);
@@ -91,7 +91,7 @@ function dal(yaprakCiz = true) {
   polygon(100, 100, 4); // Kalın döndürülmüş dörtgen dalın ana hatlarını verir.
   pop();
 
-  // Üst kısmı zemin rengiyle kapatır; gerçek saydamlık/alpha maskesi değildir.
+  // Zemin rengindeki çokgen, üst kenarı örterek dalın açık V biçimini oluşturur.
   push();
   fill(colors.ivory);
   noStroke();
@@ -124,7 +124,7 @@ function dal(yaprakCiz = true) {
   }
 }
 // Elips yarıçapları rx ve ry, köşe sayısı npoints ile çokgen üretir.
-// Bu yardımcı fonksiyon p5.js'in yerleşik komutu değildir.
+// Köşeleri elips çevresinde eşit açılarla yerleştiren çokgen yardımcısı.
 // Açı kipinin DEGREES olması gerekir; cos/sin bu kipe göre hesap yapar.
 function polygon(rx, ry, npoints) {
   let angle = 360 / npoints; // Ardışık köşeler arasındaki açı.

@@ -10,7 +10,7 @@ Bir yolun düz bir çizgi gibi yürümediğini biliyoruz. Adım bazen uzuyor, ba
 
 ### Ses ve yapı
 
-92 BPM. Vurmalı katman ve alçak sesler 4.5 vuruşluk döngülerle çalışır; sekizlik gruplama 2+2+2+3’tür. D, E♭ ve F♯ çevresindeki notalar Hicaz rengini çağrıştırır. Kısa pluck cümleleri, tekrar eden alçak telli ses ve uzun hollow zemin birlikte ilerler. Bu bir yorumdur; doğrulanmış bir Teke Zortlatması kaydının aktarımı değildir.
+92 BPM. Vurmalı katman ve alçak sesler 4.5 vuruşluk döngülerle çalışır; sekizlik gruplama 2+2+2+3’tür. D, E♭ ve F♯ çevresindeki notalar Hicaz rengini çağrıştırır. Kısa pluck cümleleri, tekrar eden alçak telli ses ve uzun hollow zemin birlikte ilerler. Vurguların 2+2+2+3 düzeni, yürüyüşe son grupta uzayan bir adım verir.
 
 ### Çalıştırma
 
@@ -24,7 +24,7 @@ A path is not walked as a perfectly straight line. A step lengthens or waits; th
 
 ### Sound and structure
 
-92 BPM. Percussion and low layers use 4.5-beat cycles, corresponding to 2+2+2+3 eighth-note grouping. Notes around D, E-flat and F-sharp suggest a Hicaz-like color. Short plucked phrases move with a repeated low-string figure and sustained hollow ground. This is an interpretation, not a transcription of a verified Teke Zortlatması recording.
+92 BPM. Percussion and low layers use 4.5-beat cycles, corresponding to 2+2+2+3 eighth-note grouping. Notes around D, E-flat and F-sharp suggest a Hicaz-like color. Short plucked phrases move with a repeated low-string figure and sustained hollow ground. The 2+2+2+3 accents lengthen the final step of each rhythmic cycle.
 
 ### Running
 

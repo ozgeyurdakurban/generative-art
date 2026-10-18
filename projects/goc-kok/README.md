@@ -40,29 +40,46 @@ Bu anlamlardan yola çıkarak kendi hikâyemi kurdum. Eli belinde figüründe at
 
 Motif bir fotoğraf gibi taşınmaz; onu tanınır kılan ilişkilerle taşınır. Koçboynuzunda karşılıklı kancalar, eli belindede baş–omuz–bel–etek ilişkisi ve aynalanmış kollar, hayat ağacında eksen–dal–katman, yıldızda merkezden dönme, gözde iç içe eşkenar dörtgenler korunur. Konum, ölçek, aralık, opaklık ve yön değişebilir. Soyutlamanın sınırı, biçimin kendi hikâyesiyle bağını bütünüyle kaybetmemesidir.
 
-İlk fikir geliştirmede belirlenen birbirine yaklaşan ama tam birleşmeyen iki uç, anlamların birbirine açık kalması için bir düşünme aracıdır. Mevcut kod bu fikri kanca ve aralık ilişkileriyle ima eder; her evrede tek ve değişmez bir iz olarak bütünüyle çözmüş değildir.
+Kancaların birbirine yaklaşan uçları ve merkezdeki küçük göz, bütün çözülürken tanınmayı sürdüren ayrıntılardır. Bereketin iki bileşeni arasındaki mesafe göçte açılır; dönüşte bu açıklık daralır. Aynı geometrinin farklı uzaklıklarda yeniden belirmesi, hafızanın görsel karşılığıdır.
 
 ### Psikedelik dil
 
 Psikedelik etki motiflerin üzerine eklenen bağımsız bir dekor katmanı olarak düşünülmez. Aynı gözün, yıldızın ve pıtrağın farklı ölçeklerde, karşı yönlerde ve yakın renkli konturlarla yeniden görünmesinden doğar. Beş halka çevreyi çoğaltır; daha büyük yıldız katmanları içeri doğru bir koridor etkisi arar. Zemin ızgarası kolektif alanı, kenardaki göz zincirleri sınırın geçirgen korunmasını çağrıştırır.
 
-GÖÇ sırasında bu yoğunluk azalır, çemberler yassılaşır ve yollar belirginleşir. KÖK sırasında birimler yeniden birlikte hareket eder. Bu karşıtlık, tek bir psikedelik dokunun sürekli dönmesinden daha önemli bir anlatı kararıdır. Motiflerin kültürel anlamıyla psikedelik yorum birbirine temas eder; ikisi özdeş kabul edilmez.
+GÖÇ sırasında bu yoğunluk azalır, çemberler yassılaşır ve yollar belirginleşir. KÖK sırasında birimler yeniden birlikte hareket eder. Karşıt yönlerde dönen halkalar ile birlikte hareket eden merkez, çözülme ve toplanmayı aynı görüntüde duyurur.
 
 ### Renk, yöre ve ritim
 
-Araştırmanın kültürel yönü Isparta, Burdur ve Denizli çevresindeki Yörük gelenekleridir. Henüz belirli bir yöresel dokuma örneği, kaynak künyesi ve renk anlamı dizisi seçilmemiştir. Mevcut koyu zemin, sıcak kırmızı, sarı ve yeşil paleti çağdaş görsel bir denemedir. Renklerin evrensel veya tek bir Yörük geleneğine ait kesin anlamları olduğu öne sürülmez.
+Hikâyenin coğrafi ufkunda Isparta, Burdur ve Denizli çevresindeki Yörük yaşamı vardır. Koyu zemin üzerinde kırmızı, merkezi bereket figürünü öne çıkarır. Sarı, gözleri ve su yolu bordürlerini birbirine bağlar. Yeşil, hayat ağacında ve çevredeki çengellerde yeniden bağlanma evresini görünür kılar. Açık renkli çizgiler, göç sırasında belirginleşen patikaları ve eşlikçileri taşır.
 
-KÖK için düşünülen Teke Zortlatması bağlantısı bir araştırma hedefidir. Mevcut sürümün yumuşak sinüsleri doğrulanmış bir aksak usulün hareket dökümü değildir. Bu ayrım, sonraki gelişimde müzik örneği seçip vurguları gerçekten çözümleyebilmek için korunur.
+Ritmi birkaç farklı hızda çalışan sinüsler kurar. Merkez yavaşça nefes alırken halkalar ters yönlerde döner; küçük birimler kendi faz farklarıyla salınır. Göç ilerledikçe halkaların dikey boyutu daralır ve zemin ızgarası dalgalanır. Yeniden köklenmede bu hareketler genişleyen, ortak bir düzene döner.
 
 ### Görüntü metinsizdir
 
 Son sürümde başlık, evre adı veya açıklama tuvale yazılmaz. Eserin içindeki anlam, açıklama okumadan izlenebilmelidir: yaklaşma, uzaklaşma, eşlik etme, çözülme ve yeniden bağlanma görünür hareketlerdir. Bu README, görselin üzerine konmuş bir etiket değil, üretim sürecinin dışarıdaki düşünce defteridir.
 
-### Kullanım ve mevcut sınırlar
+### Sahne nasıl kuruluyor?
+
+| Katman / fonksiyon | Kompozisyondaki işlevi |
+|---|---|
+| `draw()` ve `gecis()` | Zamanı 90 saniyelik döngüye böler; evrelerin ağırlığını yumuşak eşiklerle değiştirir. |
+| `dokuAlani()` | 11 × 13 hücrede göz, yıldız ve pıtrak tekrarları kurar; merkez için boşluk bırakır. |
+| `motifEvreni()` | Beş halkaya yıldız, pıtrak, göz, çengel ve koçboynuzu yerleştirir; karşı yönlerde döndürür. |
+| `bereket()`, `eliBelinde()`, `kol()`, `kocboynuzu()` | Yolcuyu baş, gövde, aynalanmış kollar, etek, kancalar ve merkezdeki gözden kurar. |
+| `goz()`, `yildiz()`, `pitrak()`, `eskenar()` | İç içe eşkenar dörtgenleri, sekiz köşeli yıldızı ve dört yönlü dikenleri çizer. |
+| `kurtAgzi()` ve `cengel()` | Karşılıklı çeneleri ve Z/S kancalarıyla eşlikçileri ve çevredeki bağları kurar. |
+| `suYolu()`, `patika()`, `baglar()` | Kayan zikzak bordürünü, dört noise hattını ve merkezden çevreye uzanan bağlantıları çizer. |
+| `hayatAgaci()` | Dikey gövdeye beş kat aynalanmış dal ve yaprak ekler; yeniden bağlanmada görünür. |
+| `boya()` | Aynı paletten gelen konturların opaklığını ayarlayarak katmanları birbirine geçirir. |
+| `keyPressed()` ve `video-kaydet.js` | Zamanı durdurma, başa dönme, PNG alma ve tuvali videoya kaydetme işlemlerini yönetir. |
+
+İlk 18 saniyede kökün bağlı düzeni baskındır. 18–34,2 saniye arasında ayrılma büyür; 34,2–55,8 saniye arası göç alanıdır. 55,8–75,6 saniyede yeniden bağlanma güçlenir; son bölüm yeni kökü kurar. Yolcunun hareketi bu evrelerin içinden geçen ayrı bir yumuşak geçişle hesaplanır.
+
+### Çalıştırma
 
 index.html dosyasını açın; p5.js 1.11.3 CDN'den yüklendiği için internet gerekir. Boşluk durdurur/devam ettirir; R başa döner, S PNG kaydeder. 90 sn video indir düğmesi yalnızca tuvali kaydeder. Düğmeler video görüntüsüne girmez. Öncelikli biçim WebM'dir; tarayıcı desteğine göre MP4 seçilebilir. Kayıt sırasında sekme ön planda tutulmalıdır.
 
-Tuval 900×900, döngü 90 saniyedir. Sonraki döngülerde silik hayat ağacı izi bulunur; sınırsız birikimli hafıza modeli uygulanmaz. İlk döngüyle sonraki döngünün başlangıcı tam aynı değildir.
+Tuval 900×900, döngü 90 saniyedir. İlk yolculuğun ardından hayat ağacının silik izi sonraki döngülere eşlik eder.
 
 ## English
 
@@ -93,35 +110,41 @@ The traveler’s challenge is not defeating an enemy. It is learning that keepin
 | Yıldız / star | Happiness and abundance | Rotational multiplication and a gathering of visual energy |
 | Pıtrak / burdock | Abundance and protection | A spiked, fourfold field extending from center toward periphery |
 
-The final column is the work’s contemporary interpretation. It does not claim that traditional sources prescribe these scenes or movements. The central fertility arrangement is not a faithful tracing of a particular historical kilim. Eli belinde adapts the initial code; other motifs are draft geometric variants informed by the dictionary.
+The final column describes each motif’s place in the journey. Eli belinde grows from the workshop’s geometric construction; hooks, axes, branches and nested diamonds carry the other figures through changes of scale and position.
 
 ### What abstraction preserves
 
 A motif travels through its defining relations. Paired hooks identify ram’s horn; the head–shoulder–waist–skirt relation and mirrored arms identify eli belinde; axis, branches and layers sustain the tree of life. Stars preserve rotational structure and eyes retain nested diamonds. Position, scale, spacing, opacity and orientation can change. The intended limit is that transformation should retain a meaningful connection to the motif’s identity.
 
-The early idea of two approaching tips that never quite meet remains a compositional question about openness. Current hooks and intervals suggest it, but the code does not yet establish one fully resolved invariant trace across every phase.
+The approaching hook tips and the small central eye remain recognizable as the arrangement opens. Migration widens the gap between the two fertility figures; returning narrows it. The same geometry reappearing at different distances gives memory a visible form.
 
 ### Psychedelic language
 
 Psychedelia emerges from repeated eyes, stars and burdock forms at different scales, with counter-rotation and closely displaced colored outlines. Five rings multiply the surroundings; larger star layers suggest an inward corridor. The background grid evokes a collective field, while chains of eyes articulate its boundary.
 
-In migration, the field becomes sparse, circles flatten and routes emerge. In rootedness, its units recover a shared movement. This contrast matters more than maintaining a continuously spinning ornamental texture. Cultural associations and psychedelic interpretation meet without being treated as identical.
+In migration, the field becomes sparse, circles flatten and routes emerge. In rootedness, its units recover a shared movement. Counter-rotating rings and a traveling center let dispersal and gathering coexist in the same image.
 
 ### Color, region and rhythm
 
-The research direction concerns Yörük traditions around Isparta, Burdur and Denizli. A specific documented regional textile and a verified sequence of color meanings have not yet been selected. The dark ground with warm red, yellow and green is a contemporary visual proposal, not a universal or authenticated regional code.
+The story looks toward Yörük life around Isparta, Burdur and Denizli. Against a dark ground, red brings the central fertility figure forward. Yellow connects the eyes and waterway borders. Green marks the tree and surrounding hooks as reconnection unfolds. Pale lines carry the routes and companions that emerge during migration.
 
-The intended relation to Teke Zortlatması remains a research goal. The current smooth sine motions do not transcribe a verified aksak rhythmic pattern. A particular musical example must be selected and analyzed before that relationship can be claimed.
+Sine waves running at different speeds establish the rhythm. The center breathes slowly, rings counter-rotate, and smaller units sway with different phases. Migration compresses the rings vertically and bends the background grid. Rootedness restores a wider, shared arrangement.
 
 ### A wordless image
 
 The latest canvas contains no title, phase labels or explanatory text. Approach, distance, accompaniment, dispersal and reconnection should carry the story through visible relations. This README is the work’s external notebook, not an inscription over its image.
 
-### Running and current limits
+### Building the scene
+
+The scene is drawn from back to front: a small motif grid, five counter-rotating rings, connecting lines, waterways and routes, the traveling fertility figure, two wolf-mouth companions, the emerging tree, and surrounding hooks. `gecis()` smooths the phase changes; `boya()` controls line opacity. Nested diamonds, eight-point stars and fourfold burdock spines form reusable drawing units. Mirrored arms construct eli belinde; paired hooks construct the ram’s horn.
+
+Rootedness leads for the first 18 seconds. Departure grows from 18 to 34.2 seconds, migration occupies 34.2–55.8, and reconnection grows from 55.8 to 75.6. The final section establishes the new root. A separate smooth transition carries the traveler through these phases. Sine waves animate scale, orientation and breathing; seeded noise shapes four routes. Keyboard controls pause, reset and save a still, while the video recorder captures the canvas.
+
+### Running
 
 Open index.html with internet access for the p5.js 1.11.3 CDN. Space pauses/resumes, R restarts, and S saves a PNG. The 90-second video button captures the canvas only, excluding controls. WebM is preferred; MP4 may be selected if supported. Keep the tab foregrounded while recording.
 
-The canvas is 900×900 and the cycle lasts 90 seconds. Later cycles retain a faint tree-of-life trace; this is not an indefinitely accumulating memory model. The first and later cycle starts differ slightly.
+The canvas is 900×900 and the cycle lasts 90 seconds. After the first journey, a faint tree-of-life trace accompanies later cycles.
 
 ## Atölye / Workshop
 

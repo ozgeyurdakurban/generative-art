@@ -39,7 +39,7 @@ function eliBelinde(x, y, s, renk) {
   rect(-34, -40, 68, 45); // 9. Bel.
   quad(-34, 5, 34, 5, 281, 433, -281, 433); // 10. Genişleyen alt gövde.
   // 11–14. Zemin rengindeki üçgenler dolgu üzerinde boşluk görünümü verir.
-  // Gerçek saydamlık değildir; zemin değişirse bu renk de değiştirilmelidir.
+  // Eteğin içindeki üçgen boşluklar, zemin rengiyle boyanır.
   fill(zemin);
   for (let i = 0; i < 4; i++) {
     let dy = i * 85; // Her üçgen 85 birim aşağı ötelenir.

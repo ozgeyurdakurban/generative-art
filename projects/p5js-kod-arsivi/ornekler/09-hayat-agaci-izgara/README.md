@@ -10,7 +10,7 @@ Tek bir ağaçtan bir alan doğar. Ağaçlar aynı modülden üretilse de şaş�
 
 ### Neden bu şekiller?
 
-Hayat ağacı, süreklilik ve yaşam isteği anlamları nedeniyle seçilir. Dikey eksen, karşılıklı dallar ve tekrarlanan yapraklar korunur. Şaşırtmalı yerleşimin belirli bir yöresel kilimin birebir kopyası olduğu iddia edilmez.
+Hayat ağacı, süreklilik ve yaşam isteği anlamları nedeniyle seçilir. Dikey eksen, karşılıklı dallar ve tekrarlanan yapraklar korunur. Bir satırdaki ağaçlar yarım hücre kaydırılarak yan yana gelen dalların arasında yeni boşluklar açılır.
 
 ### Kural, hareket ve uygulama
 
@@ -24,7 +24,7 @@ A field grows from a single tree. Although all trees share one module, staggered
 
 ### Why these shapes?
 
-The tree of life is selected for its associations with continuity and the wish for life. Its vertical axis, paired branches and repeated leaves remain legible. The staggered arrangement is not claimed as a transcription of a specific regional kilim.
+The tree of life is selected for its associations with continuity and the wish for life. Its vertical axis, paired branches and repeated leaves remain legible. Shifting alternate rows by half a cell opens new spaces between neighboring branches.
 
 ### Rule, movement and implementation
 

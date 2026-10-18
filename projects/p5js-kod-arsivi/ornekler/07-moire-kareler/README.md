@@ -10,7 +10,7 @@ Bir kareler bütünü sabit kalırken diğeri onun üzerinde yavaşça döner. �
 
 ### Neden bu şekiller?
 
-Kareler temel geometri ve moiré etüdüdür; tarihsel motif değildir. Dokumadaki tekrar düşüncesiyle biçimsel bir yakınlık kurar. Kompozisyon, 80 kareden oluşan iki katmanla kurulmuştur.
+Karelerin üst üste gelmesi, dokumadaki tekrar düşüncesiyle biçimsel bir yakınlık kurar. Kompozisyon, 80 kareden oluşan iki katmanla kurulmuştur.
 
 ### Kural, hareket ve uygulama
 
@@ -24,7 +24,7 @@ One field of squares remains still while another slowly rotates across it. Their
 
 ### Why these shapes?
 
-The squares form a geometry and moiré study, not a historical motif. Their repetition has a formal affinity with weaving. The composition uses two layers of eighty squares.
+Overlapping squares connect the moiré effect with the visual repetition of weaving. The composition uses two layers of eighty squares.
 
 ### Rule, movement and implementation
 

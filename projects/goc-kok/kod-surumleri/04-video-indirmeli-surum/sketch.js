@@ -1,9 +1,13 @@
-/* GÖÇ / KÖK — p5.js anlatı taslağı v2 — motif temelli psikedelik yorum
- * Anadolu motifleri üzerine geometrik ve hareketli kompozisyon.
- * Motifler aşağıda ayrı fonksiyonlardır; her biri değiştirilebilir.
- * Çizimler sözlükten esinlenen geometrik taslak varyantlarıdır;
- * belirli bir Isparta/Burdur/Denizli dokumasının birebir kopyası değildir.
- * Renkler sanatsal denemedir; yöresel anlam ataması yapılmamıştır.
+/* GÖÇ / KÖK
+ * 900 × 900 tuvalde 90 saniyelik kök–ayrılma–göç–yeniden bağlanma döngüsü.
+ * Merkezdeki bereket, eli belinde, koçboynuzu ve gözün birleşiminden oluşur.
+ * Göçte bu parçaların aralığı açılır; bütün sağa ilerlerken kurt ağızları eşlik eder.
+ * Su yolu bordürleri akışı, noise ile çizilen patikalar araziyi kurar.
+ * Hayat ağacı yeniden bağlanmada görünür; çengeller merkez çevresinde birlik kurar.
+ * Karşı yönlerde dönen motif halkaları göçte yassılaşır, kökte yeniden genişler.
+ * Küçük motif ızgarası, iç içe yıldızlar ve kenardaki göz zincirleri dokuyu yoğunlaştırır.
+ * Sinüs ölçeğe ve konuma nefes verir; yumuşak eşikler evreleri birbirine bağlar.
+ * Kırmızı merkezi figürü, sarı göz ve su yolunu, yeşil ağacı ve çevre bağlarını vurgular.
  * SPACE: durdur/devam | R: başa dön | S: PNG kaydet
  */
 const PALET = {
@@ -37,7 +41,7 @@ function draw() {
   const goc = ayrilma * (1 - donus); // Göçün görsel ağırlığı, 0..1.
   const kok = 1 - goc;
 
-  // Görselde yazı yok: anlatı yalnızca motiflerin ilişkileriyle kurulur.
+  // Anlatıyı merkez, çevre ve patikalar arasındaki uzaklıklar kurar.
   push();
   translate(0, 60); // Kompozisyonun optik merkezini kare tuvale yerleştir.
 
@@ -62,7 +66,7 @@ function draw() {
   bereket(goc, donus);
   pop();
 
-  // Koruyucu kurt ağzı varyantları yolcunun çevresinde çift halinde yürür.
+  // Koruyucu kurt ağzı motifleri yolcunun çevresinde çift halinde yürür.
   // Konumları değişir; karşılıklı çene geometrisi sabit kalır.
   for (let yon of [-1, 1]) {
     push();
@@ -93,7 +97,6 @@ function draw() {
     pop();
   }
   pop();
-  // Başlık ve altyazı bilinçli olarak çizilmez.
 }
 
 // Yumuşak eşik: bir olayın aniden açılıp kapanmasını önler.
@@ -110,7 +113,7 @@ function boya(hex, alpha = 255) {
 
 function bereket(acilma, yeniden) {
   // Bereket: eli belinde + koçboynuzu ilişkisi ve merkezde koruyucu göz.
-  // Bu birleşim bir taslak varyantıdır; özgün dokuma örneğiyle netleştirilebilir.
+  // İki figürün arasındaki açıklık, göçün ilerleyişiyle 18 birimden 63 birime büyür.
   // Göçte iki bileşen uzaklaşır ama görünürlüklerini ve biçimlerini korur.
   const ara = 18 + acilma * 45;
   push();
@@ -173,7 +176,7 @@ function eskenar(x,y,r) {
   endShape(CLOSE);
 }
 function cengel() {
-  // 180° dönme ilişkisine sahip Z/S kanca varyantı.
+  // Z/S biçimli kancanın uçları merkez çevresinde 180° dönme ilişkisi kurar.
   strokeWeight(5);
   beginShape();
   vertex(-22,-21); vertex(-9,-31); vertex(16,-10);
@@ -225,7 +228,7 @@ function suYolu(goc, ms) {
   }
 }
 function patika(goc) {
-  // noise düzgün bir topoğrafik hat üretir; rastgele titreşim kullanılmaz.
+  // noise örnekleri dört topoğrafik hattın yüksekliğini belirler.
   for(let j=0;j<4;j++) {
     boya(j%2?PALET.yesil:PALET.koyu,goc*65);
     strokeWeight(1.2);
@@ -256,17 +259,16 @@ function keyPressed() {
   if(key==='s'||key==='S')saveCanvas('goc-kok-psikedelik','png');
 }
 
-// PSİKEDELİK KATMAN: Yeni süs şekilleri yerine sözlükteki motiflerin
-// dönme, tekrar, ölçek ve renk ilişkileriyle algısal derinlik oluşturulur.
+// Motifler dönme, tekrar, ölçek ve renk ilişkileriyle iç içe bir derinlik kurar.
 // Kültürel anlamları: yıldız=mutluluk/bereket, pıtrak=bolluk/korunma,
-// göz=nazardan korunma, çengel=birlik/korunma. Halkalar bizim sanatsal yorumumuzdur.
+// göz=nazardan korunma, çengel=birlik/korunma. Her halka bu işaretlerden birini tekrarlar.
 function motifEvreni(kok, goc, ms) {
   const s = ms * .001;
   const renkler = [PALET.kirmizi, PALET.sari, PALET.yesil];
   push();
   translate(450, 390);
 
-  // Karşı yönlerde dönen üç halka. Göçte dağılır, kökte tekrar toplanır.
+  // Karşı yönlerde dönen beş halka. Göçte dağılır, kökte tekrar toplanır.
   // Konumlar zamandan hesaplandığı için durdurma ve kaydetme tutarlıdır.
   for (let kat = 0; kat < 5; kat++) {
     const yon = kat % 2 ? -1 : 1;
@@ -348,7 +350,7 @@ function pitrak(r) {
   }
 }
 
-// Yoğunluk rastgele simgelerle değil, sözlük motiflerinin küçük birimlerinden kurulur.
+// Küçük göz, yıldız ve pıtrak birimleri 11 × 13 hücreli dokuyu kurar.
 // Göz, yıldız, koçboynuzu ve pıtrak aynı zamanda psikedelik optik bir dil oluşturur.
 function dokuAlani(kok, goc, ms) {
   const s = ms * .001;
@@ -376,7 +378,7 @@ function dokuAlani(kok, goc, ms) {
     }
   }
   // Sekiz yönlü, katmanlı yıldız koridoru: içe çekilme/derinlik hissi.
-  // Yumuşak sinüsle hareket eder; ani renk yanıp sönmesi kullanılmaz.
+  // Katmanların açısı yavaş sinüslerle salınır; opaklık dışa doğru azalır.
   push();
   translate(450, 390);
   for (let kat = 0; kat < 8; kat++) {
