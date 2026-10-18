@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Göç / Kök</title>
+<style>body{margin:0;background:#171b20;display:grid;place-items:center;min-height:100vh}canvas{max-width:100vw;max-height:100vh;width:auto!important;height:auto!important;object-fit:contain}#video-kontrol{position:fixed;bottom:16px;right:16px;display:flex;gap:8px;align-items:center;font:13px system-ui;color:#efe2c2;background:#171b20dd;padding:10px;border-radius:10px}button{border:1px solid #e6be55;background:#171b20;color:#efe2c2;padding:10px 14px;border-radius:6px;cursor:pointer}button:disabled{opacity:.6;cursor:wait}a{color:#e6be55}</style>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script><script src="sketch.js"></script>
+<div id="video-kontrol"><span id="video-durum" role="status"></span><button id="video-baslat" onclick="videoyuIndir()">90 sn video indir</button><button id="video-bitir" onclick="kaydiBitir()" hidden>Şimdi bitir</button><a id="video-link" hidden>Videoyu indir</a></div>
+<script src="video-kaydet.js"></script></html>

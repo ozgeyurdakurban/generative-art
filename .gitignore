@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+*.mp4
+*.webm
+
+# Local sound recordings and session sets
+*.wav
+*.aiff
+*.aif
+*.flac
+*.sonicpi
+
+# Local working material
+AGENTS.md
+docs/references/
+docs/PROJECT-README-TEMPLATE.md
+**/HAZIRLAMA-NOTLARI.md
+**/dogrulama.*
+**/yedekler/
